@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inside-container">
+            <div class="part1">
+                <div class="timezone"><h1>TimeZone API</h1></div>
+                <div class="curretTime"><h1>Your Current Time Zone</h1></div>
+                <div class="inside-part1">
+                        <p id="cname">Name of Time Zone:</p>
+                        <span><p style="display: inline;"id="clat">Lat:</p><p style="display: inline;"id="clong">Long:</p></span>
+                        <p id="cstd">Offset STD:</p>
+                        <p id="csecond">Offset STD Second</p>
+                        <p id="cdst">Offset DST:</p>
+                        <p id="cdsecond">Offset DST Seconds:</p>
+                        <p id="ccountry">Country:</p>
+                        <p id="cpin">PostCode:</p>
+                        <p id="ccity">City:</p>
+                        
+
+                </div>
+
+            </div>
+            <div class="part2">
+               <div class="enteraddress"><h1>Enter Address</h1></div>
+               <input type="text" class="text" id="text"placeholder="Address">
+               <button  class="submit"type="submit" id="submit">Submit</button>
+               <div class="result" id="result"><h1>Your Result</h1></div>
+               <div class="inside-part2" id="inside-part2">
+                <p id="rname">Name of Time Zone:</p>
+                
+                
+
+
+                        <p  id="rlat"></p>
+                        <p id="rstd"></p>
+                        <p id="rsecond"></p>
+                        <p id="rdst"></p>
+                        <p id="rdsecond"></p>
+                        <p id="rcountry"></p>
+                        <p id="rpin"></p>
+                        <p id="rcity"></p>
+                        <p id="rlong"></p>
+
+               </div>
+            </div>
+            <div class="massage"><p id="message">Please Enter an Address</p></div>
+        </div>
+        
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
